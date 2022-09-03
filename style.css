@@ -67,6 +67,8 @@ header {
     align-items: center;
     justify-content: space-between;
     color: var(--orange);
+
+    position: fixed;
 }
 
 header a {
@@ -96,6 +98,7 @@ ul.header-list li:hover {background-color: #f94c57c2;}
 section.content {
     width: 70%;
     padding: 20px;
+    margin-top: 60px;
 
     display: flex;
     flex-direction: column;
@@ -184,4 +187,6 @@ section.content section.resume img {
     .texto {
         text-align: center;
     }
+
+    ol {margin-left: 24px;}
 }
